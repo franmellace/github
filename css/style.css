@@ -607,6 +607,7 @@ body {
 @media (max-width: 480px) {
 .grid_magnitudes
 {
+    display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
 }
