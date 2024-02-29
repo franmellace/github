@@ -21,34 +21,50 @@
 </head>
     
 <body class="Grid_Index">
+
     <header class="header_index">
-        <nav class="menu" id="menu">
-            <div class="menu__logo">  
-                <a href="./index.html">
-                <img src="./img/logonet2.png" alt="Logo Net"></a>
+       
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar_pc">
+            <div class="container-fluid">
+              <div class="imagen_nav">
+                <a class="navbar-brand" href="index.html">
+                <img src="./img/logonet2.png" alt="Logo_Net_Nav">
+                </a>
             </div>
-
-            <ul class="menu__menu">
-
-                <li class="menu__item">
-                    <a class="menu__link" href="pages/servicios.html">Servicios</a>
+              
+        <section class="dropdown_barra">
+            <div class="dropdown_nav">
+                  <li class="nav-item dropdown" id="dropdown_nav">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="pages/servicios.html">Servicios</a></li>
+                      <li><a class="dropdown-item" href="pages/trazabilidad.html">Trazabilidad</a></li>
+                      <li><a class="dropdown-item" href="pages/trazabilidad.html">Contacto</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="pages/pedir_cotizacion.html">Pedir Cotización</a></li>
+                    </ul>
+            </div>
+        </section>  
+                <li class="nav-item" id="nav-item-id">
+                        <a class="nav-link" href="pages/servicios.html">Servicios</a>
                 </li>
-                
-                <li class="menu__item">
-                    <a class="menu__link" href="pages/trazabilidad.html">Trazabilidad</a>
+                    
+                <li class="nav-item" id="nav-item-id">
+                        <a class="nav-link" href="pages/trazabilidad.html">Trazabilidad</a>
                 </li>
-
-                <li class="menu__item">
-                    <a class="menu__link" href="pages/contacto.html">Contacto</a>
+        
+                <li class="nav-item" id="nav-item-id">
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
                 </li>
-
-                <li class="menu__item"> 
-                    <a class="menu__link" href="pages/pedir_cotizacion.html"> <span class="pedir_cotizacion">PEDIR COTIZACIÓN </span></a>
-
+            
+                <li class="nav-item" id="nav-item-id">
+                        <a href="pages/pedir_cotizacion.html">
+                            <button id="boton__pedir_cotizacion" type="button" class="btn btn-primary btn-lg">PEDIR COTIZACIÓN    </button>
+                        </a>
                 </li>
-            </ul>
-
-        </nav>
+          </nav>
     </header>
 
     <main class="main_index"> 
