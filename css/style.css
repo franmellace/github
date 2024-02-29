@@ -593,7 +593,7 @@ border-radius: 10px;
     grid-area: footer_index;
 }
 header {
-    max-width: fit-content;
+    max-width: 100%;
 }
 body {
     max-width: 100%;
@@ -629,5 +629,8 @@ body {
     .PruebaInicio {
         background-image: url(/img/ManometroInicio.jpg);
         max-width: 100%;
+    }
+    header {
+        width: 100vw;
     }
 }
