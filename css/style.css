@@ -626,4 +626,8 @@ body {
     .PruebaInicio h1 {
         font-size: 2rem;
     }
+    .PruebaInicio {
+        background-image: url(/img/ManometroInicio.jpg);
+        max-width: 100%;
+    }
 }
