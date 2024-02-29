@@ -74,7 +74,7 @@ mag {
   background-image: linear-gradient(rgba(10, 6, 55, 0.434), rgba(10, 6, 55, 0.434)), url(../img/AAA-094.jpg);
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 70vh;
   width: 100%;
   flex-direction: column;
 }
@@ -573,12 +573,13 @@ border-radius: 10px;
 .footer_servicios {
   grid-area: footer_sv;
 }
-.Grid_Index {
+.Grid_Indexd {
   display: grid;
   margin: 0 auto;
   grid-template-rows: auto;
   grid-template-columns: repeat(3, auto);
-  grid-template-areas: "header_index"
+  grid-template-areas: 
+  "header_index header_index header_index"
   "main_index"
   "footer_index";
 }
@@ -600,37 +601,33 @@ border-radius: 10px;
 .logonet_nav {
   width: 280px;
 }
+footer {
+  text-decoration: none;
+}
 #boton__pedir_cotizacion {
   background-color: #2d45b0;
 }
-@media (max-width: 480px) {
-.grid_magnitudes
-{
+
+@media only screen and (min-width: 400px) and (max-width: 959px){
+  
+.PruebaInicio {
+  background-image: linear-gradient(rgba(10, 6, 55, 0.434), rgba(10, 6, 55, 0.434)), url(../img/AAA-069.jpg);
+}
+.PruebaInicio h1 {
+  font-size: 2rem ;
+}
+.PruebaInicio p {
+  font-size: 1rem;
+}
+.gridIndex {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
 }
+footer {
+  font-size: 0.8rem;
 }
-@media (min-width: 750px) {
-  .dropdown_nav {
-      display: none;
-  }
-
-
+footer h3 {
+  font-size: 1rem;
 }
-@media (max-width: 750px) 
-{
-  #nav-item-id {
-      display: none;
-  }
-  .PruebaInicio h1 {
-      font-size: 2rem;
-  }
-  .PruebaInicio {
-      background-image: url(/img/ManometroInicio.jpg);
-      max-width: 100%;
-  }
-  header {
-      max-width: 100%;
-  }
 }
