@@ -617,7 +617,7 @@ footer a{
   background-color: #2d45b0;
 }
 
-@media only screen and (min-width: 400px) and (max-width: 959px){
+@media only screen and (min-width: 350px) and (max-width: 959px){
   
 .PruebaInicio {
   background-image: linear-gradient(rgba(10, 6, 55, 0.434), rgba(10, 6, 55, 0.434)), url(../img/AAA-069.jpg);
