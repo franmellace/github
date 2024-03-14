@@ -44,7 +44,7 @@ body {
   background-color: #022061;
 }
 
-mag {
+#mag {
   border: 5px solid black;
   color: white;
   border-radius: 15px;
@@ -57,6 +57,9 @@ mag {
   display: grid;
   align-items: center;
   background-color: #022061;
+}
+#mag:hover {
+  background-color: #002b87;
 }
 
 .gridIndex {

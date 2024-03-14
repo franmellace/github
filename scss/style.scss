@@ -43,7 +43,8 @@
     background-color: #022061;
     
   }
-  mag {
+
+  #mag {
     border: 5px solid black;
     color:white; 
     border-radius: 15px;
@@ -56,6 +57,9 @@
     display: grid;
     align-items: center;
     background-color: #022061;
+    &:hover {
+        background-color: #002b87;
+    }
   }
   .gridIndex {
     padding: 60px;
@@ -684,8 +688,6 @@
     h1{
         font-size: 1.5rem;
     }
-    p {
-        }
   }
   }
   
