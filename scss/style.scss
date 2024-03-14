@@ -118,25 +118,25 @@
   .menu__logo {
     display: flex;
     align-items: center;
-  }
-  .menu__logo img {
-    height: 70px;
-    margin-right: 50px;
+    img {
+      height: 70px;
+      margin-right: 50px;
+    }
   }
   
   #menu{  
     color: black;
     text-decoration: none;
-  }
-  #menu a:hover{  
-    color: black;
-    text-decoration: none;
-  }
-  #menu a:active {
-    color: black;
-  }
-  #menu a:visited {
-    color: black
+      &:hover {
+        color: black;
+        text-decoration: none;
+      }
+      &:active {
+        color: black;
+      }
+      &:visited {
+        color: black;
+      }
   }
   .pedir_cotizacion{
     display: inline-block;
@@ -146,10 +146,7 @@
     border: none;
     border-radius: 10px;
     text-decoration: none;
-  
   }
-  
-  
   
   .imagen_inicio  
   {
@@ -182,11 +179,10 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-  }
-  
-  .clientes img {
-    max-width: 220px;
-    padding: 25px;
+    img {
+      max-width: 220px;
+      padding: 25px;
+    }
   }
   
   .TituloMagnitudes {
@@ -207,22 +203,24 @@
     flex-direction: column;
     margin: 80px;
     font-size: 15px;
-  
+      label{
+      margin-bottom: 10px;}
+      input {
+      margin-bottom: 10px;
   }
-  .formulariodecontacto input {
-    margin-bottom: 10px;
-    height: 30px;
+  
   }
   .formulariodecontacto {
     padding: 20px;
+    input {
+      margin-bottom: 10px;
+      height: 30px;
+    }
   }
   .Contactenos{
     text-align: center;
   }
-  
-  #Contacto_Datos label, #Contacto_Datos input {
-    margin-bottom: 10px;
-  }
+
   #consulta {
     height: 100px;
   }
@@ -262,10 +260,7 @@
         flex: 1;
         text-align: center;
     }
-    .footer1 img {
-        max-width: 100%;
-        height: auto;
-    }
+
     .footer2 p, .footer3 p {
         margin: 0;
     }
@@ -276,16 +271,15 @@
     .footer4 {
         text-decoration: none;
     }
-    .footer4 a:hover {
+    .footer4 {
+        &:hover {
         color: #FFFFFFB3;
+        }
+        &:active {
+          color: #FFFFFFB3;
+      }
     }
-    .footer4 a:active {
-        color: #FFFFFFB3;
-    }
-    .footer4 a:visited {
-        color: #FFFFFFB3;
-    }
-  
+
   
   .descripcion_servicios {
     display: inline-block   ;
@@ -301,13 +295,13 @@
     justify-content: space-between;
     gap: 50px;
     text-align: center;
+      img {
+        width: 650px;
+        height: 400px;
+        border-radius: 50px;
+      }
   }
   
-  .main1 img {
-    width: 650px;
-    height: 400px;
-    border-radius: 50px;
-  }
   .main2 {
     display: inline-flex;
     flex-direction: row-reverse;
@@ -317,11 +311,11 @@
     justify-content: space-between;
     gap: 50px;
     text-align: center;
-  }
-  .main2 img {
-    width: 650px;
-    height: 400px;
-    border-radius: 50px;
+    img {
+      width: 650px;
+      height: 400px;
+      border-radius: 50px;
+    }
   }
   .main3 {
     display: inline-flex; 
@@ -331,12 +325,11 @@
     justify-content: space-between;
     gap: 50px;
     text-align: center;
-  }
-  
-  .main3 img {
-    width: 650px;
-    height: 400px;
-    border-radius: 50px;
+    img {
+      width: 650px;
+      height: 400px;
+      border-radius: 50px;
+    }
   }
   
   .titulo_trazabilidad {
@@ -401,12 +394,12 @@
     flex-direction: column;
     padding: 10px;
     gap: 7px;
+      input {
+        margin-bottom: 10px;
+        height: 30px;
+      }
   }
   
-  .FormularioDeCotizacion input {
-    margin-bottom: 10px;
-    height: 30px;
-  }
   .form-floating {
     color: rgb(97, 97, 97);
   }
@@ -456,11 +449,12 @@
     .footer1, .footer2, .footer3, .footer4 {
         flex: 1;
         text-align: center;
+        img {
+          max-width: 100%;
+          height: auto;
+      }
     }
-    .footer1 img {
-        max-width: 100%;
-        height: auto;
-    }
+
     .footer2 p, .footer3 p {
         margin: 0;
     }
@@ -497,10 +491,7 @@
     flex: 1;
     text-align: center;
   }
-  .footer1 img {
-    max-width: 100%;
-    height: auto;
-  }
+
   .footer2 p, .footer3 p {
     margin: 0;
   }
