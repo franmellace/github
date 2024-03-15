@@ -60,7 +60,7 @@ body {
   transition: all 1s;
 }
 #mag:hover {
-  background-color: #002b87;
+  background-color: #033ab0;
 }
 
 .nav-item {
@@ -703,7 +703,7 @@ footer {
   grid-area: footer_index;
 }
 
-.logonet_nav {
+#logonet_nav {
   width: 280px;
 }
 

@@ -59,7 +59,7 @@
     background-color: #022061;
     transition: all 1s;
     &:hover {
-        background-color: #002b87;
+        background-color: #033ab0;
     }
   }
   .nav-item {
@@ -634,9 +634,10 @@
   .footer_servicios {
     grid-area: footer_sv;
   }
-  .Grid_Indexd {
+  .Grid_Index {
     display: grid;
     margin: 0 auto;
+    gap: 300px;
     grid-template-rows: auto;
     grid-template-columns: repeat(3, auto);
     grid-template-areas: 
@@ -659,7 +660,7 @@
   .footer_index {
     grid-area: footer_index;
   }
-  .logonet_nav {
+  #logonet_nav {
     width: 280px;
   }
   footer a{
