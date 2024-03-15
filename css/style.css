@@ -57,9 +57,25 @@ body {
   display: grid;
   align-items: center;
   background-color: #022061;
+  transition: all 1s;
 }
 #mag:hover {
   background-color: #002b87;
+}
+
+.nav-item {
+  transition: 0.5s;
+}
+.nav-item:hover {
+  font-size: 1.1rem;
+}
+
+.navbar-brand img {
+  transition: 1s;
+}
+.navbar-brand img:hover {
+  background-color: rgb(244, 240, 240);
+  border-radius: 30px;
 }
 
 .gridIndex {
@@ -366,6 +382,15 @@ footer {
   background-position: center;
 }
 
+#boton__contacto {
+  border-radius: 15px;
+  width: 300px;
+  height: 50px;
+  font-size: 1rem;
+  background-color: #2d45b0;
+  color: white;
+}
+
 .BotonAlcance_Contenedor {
   justify-content: center;
   text-align: center;
@@ -435,6 +460,20 @@ footer {
 .Cotizacion_Titulo {
   text-align: center;
   padding: 20px;
+}
+
+.boton__cotizacion {
+  font-family: Rubik;
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: #2d45b0;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.boton__cotizacion:hover {
+  height: 60px;
 }
 
 #BotonCotizacion {
@@ -608,6 +647,7 @@ footer {
   align-items: center;
   grid-template-rows: auto;
   grid-template-columns: repeat(6, auto);
+  overflow-x: hidden;
   grid-template-areas: "header_sv" "header_sv2" "main_1" "main_2" "main_3" "footer_sv";
 }
 

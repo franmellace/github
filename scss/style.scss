@@ -57,11 +57,26 @@
     display: grid;
     align-items: center;
     background-color: #022061;
+    transition: all 1s;
     &:hover {
         background-color: #002b87;
     }
   }
-  .gridIndex {
+  .nav-item {
+    transition: 0.5s;
+    &:hover {
+      font-size: 1.1rem;
+    }
+  }
+  .navbar-brand img {
+      transition: 1s;
+      &:hover{
+        background-color: rgb(244, 240, 240);
+        border-radius: 30px;
+      }
+  }
+
+      .gridIndex {
     padding: 60px;
     justify-content: center;
     display: grid;
@@ -347,6 +362,14 @@
     background-size: cover;
     background-position: center;
   }
+  #boton__contacto {
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: #2d45b0;
+    color: white;
+  }
   .BotonAlcance_Contenedor{
     justify-content: center;
     text-align: center;
@@ -411,6 +434,19 @@
     text-align: center;
     padding: 20px;
   }
+  .boton__cotizacion{
+    font-family: Rubik;
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: #2d45b0;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    &:hover{
+      height: 60px;
+    }
+  }
   #BotonCotizacion {
     font-family: Rubik;
     color: white;
@@ -418,6 +454,7 @@
     text-decoration: none;
     border-radius: 10px;
   }
+  
   .header_servicios2  {
     display: flex;
     flex-direction: column;
@@ -569,6 +606,7 @@
     align-items: center;
     grid-template-rows: auto;
     grid-template-columns: repeat(6, auto);
+    overflow-x: hidden;
     grid-template-areas:
     "header_sv" 
     "header_sv2"
@@ -630,7 +668,7 @@
   #boton__pedir_cotizacion {
     background-color: #2d45b0;
   }
-  
+
   @media only screen and (min-width: 350px) and (max-width: 959px){
     
   .PruebaInicio {
